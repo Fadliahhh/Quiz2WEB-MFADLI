@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Paytone+One&family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body img {
+    position: absolute;
+    width: 50%;
+    top: 16%;
+    right: 2%;
+}
+
+.Land {
+    min-height: 100vh;
+}
+
+.cari {
+    padding: 10rem 10rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: -5%;
+    left: 86%;
+    transform: translate(-90%, 200%); 
+}
+
+nav ul a {
+    text-decoration: none;
+    font-family:  'Acme', sans-serif ;
+    font-size: 25px;
+    color: FFC436;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+.judul h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    transform: translate(10%, 120%); 
+}
+
+.judul h1 {
+    position: absolute;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 100px;
+    top: 34%;
+    transform: translate(8%, 15%); 
+}
+
+.judul p {
+    position: absolute;
+    transform: translate(8%, 15%); 
+    top: 63%;
+    left: 10%;
+    font-size: 18px;
+}

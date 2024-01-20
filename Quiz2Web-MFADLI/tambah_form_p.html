@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data User</title>
+    <style>
+        fieldset {
+        width: 400px;
+        margin:auto;
+    }
+    </style>
+</head>
+
+<body>
+    <!--membungkus tampilan Read Data-->
+    <fieldset >
+    <!--Judul pada fieldset-->
+        <center><h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tambah data penerbit</h1></center>
+        <legend align="center">Input Data Penerbit</legend>
+    <!--Tampulam Form Input Data-->
+        <form action="tambah_proses_p.php" method="post" align="center">
+
+            <input type="text" name="ID_penerbit" placeholder="ID Penerbit" size="40px">
+            <br><br>
+            <input type="text" name="nama" placeholder="nama" size="40px">
+            <br><br>
+            <input type="text" name="alamat" placeholder="Alamat"size="40px">
+            <br><br>
+            <input type="text" name="kota" placeholder="Kota" size="40px">
+            <br><br>
+            <input type="text" name="telephon" placeholder="telephon" size="40px">
+            <br><br>
+ 
+            <button type="submit" name="submit">SIMPAN</button>
+            <button type="reset" name="reset">RESET</button>
+        </form>
+    </fieldset>
+</body>
+</html>
